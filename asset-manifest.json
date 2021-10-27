@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/First-react-app-Harry-bhai/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/First-react-app-Harry-bhai/static/js/main.98212e55.chunk.js",
+    "main.js.map": "/First-react-app-Harry-bhai/static/js/main.98212e55.chunk.js.map",
+    "runtime-main.js": "/First-react-app-Harry-bhai/static/js/runtime-main.e42311f0.js",
+    "runtime-main.js.map": "/First-react-app-Harry-bhai/static/js/runtime-main.e42311f0.js.map",
+    "static/js/2.3ba4b029.chunk.js": "/First-react-app-Harry-bhai/static/js/2.3ba4b029.chunk.js",
+    "static/js/2.3ba4b029.chunk.js.map": "/First-react-app-Harry-bhai/static/js/2.3ba4b029.chunk.js.map",
+    "static/js/3.a201cf99.chunk.js": "/First-react-app-Harry-bhai/static/js/3.a201cf99.chunk.js",
+    "static/js/3.a201cf99.chunk.js.map": "/First-react-app-Harry-bhai/static/js/3.a201cf99.chunk.js.map",
+    "index.html": "/First-react-app-Harry-bhai/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/First-react-app-Harry-bhai/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.3ba4b029.chunk.js.LICENSE.txt": "/First-react-app-Harry-bhai/static/js/2.3ba4b029.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e42311f0.js",
+    "static/js/2.3ba4b029.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.98212e55.chunk.js"
+  ]
+}
