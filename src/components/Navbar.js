@@ -1,16 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import { Link } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
-
   return (
     <nav
-      className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`} 
+      className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}
     >
-      <div className="container-fluid" >
-        <a className="navbar-brand" href="#">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="/">
           {props.title}
         </a>
         <button
@@ -27,17 +25,16 @@ export default function Navbar(props) {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <Link className="nav-link " aria-current="page" to="/">
+                Home
+              </Link>
+            </li>
 
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
-            </li>
-           
-            {/* <li className="nav-item">
-              <a className="nav-link" href="/about">
+              <Link className="nav-link" to="/about">
                 {props.aboutText}
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -52,12 +49,12 @@ export default function Navbar(props) {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/">
                     Latest Articles
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/">
                     Most read Articles
                   </a>
                 </li>
@@ -65,28 +62,35 @@ export default function Navbar(props) {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/">
                     You also may like
                   </a>
                 </li>
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" href="/#">
+              <a className="nav-link disabled" href="/">
                 Create your own blog
               </a>
-            </li> */}
+            </li>
           </ul>
-          <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>
+          <div
+            className={`form-check form-switch text-${
+              props.mode === "light" ? "dark" : "light"
+            }`}
+          >
             <input
               className="form-check-input"
               type="checkbox"
               role="switch"
               id="flexSwitchCheckDefault"
-              onClick = {props.toggleMode}
+              onClick={props.toggleMode}
             />
-            <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
-             Dark Mode
+            <label
+              className="form-check-label"
+              htmlFor="flexSwitchCheckDefault"
+            >
+              Dark Mode
             </label>
           </div>
           {/* <form className="d-flex">
@@ -101,7 +105,6 @@ export default function Navbar(props) {
             </button>
           </form> */}
         </div>
-       
       </div>
     </nav>
   );
