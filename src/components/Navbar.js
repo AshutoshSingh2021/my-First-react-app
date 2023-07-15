@@ -68,11 +68,6 @@ export default function Navbar(props) {
                 </li>
               </ul>
             </li>
-            <li className="nav-item">
-              <a className="nav-link disabled" href="/">
-                Create your own blog
-              </a>
-            </li>
           </ul>
           <div
             className={`form-check form-switch text-${
