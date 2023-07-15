@@ -9,17 +9,17 @@
 ### Screenshots
 
 - Transform your text!!
-  ![Convert your text](https://github.com/AshutoshSingh2021/my-First-react-app/blob/master/Screenshot(27).png)
+  ![Convert your text](https://github.com/AshutoshSingh2021/my-First-react-app/blob/master/Screenshot%20(27).png)
   
 
 - Dark Mode
-  ![Alt text](<Screenshot (26).png>)
+  ![dark mode](https://github.com/AshutoshSingh2021/my-First-react-app/blob/master/Screenshot%20(26).png)
 
 - Light Mode
-  ![Alt text](<Screenshot (25).png>)
+  ![light mode](https://github.com/AshutoshSingh2021/my-First-react-app/blob/master/Screenshot%20(25).png)
 
 - Count the Length
-  ![Alt text](<Screenshot 2023-07-16 004443.png>)
+  ![text length](https://github.com/AshutoshSingh2021/my-First-react-app/blob/master/Screenshot%20(25).png)
 
 ## 🛠 Skills
 
