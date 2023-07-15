@@ -8,8 +8,9 @@
 
 ### Screenshots
 
-- Transform you text!!
-  ![Convert your text](https://github.com/AshutoshSingh2021/my-First-react-app/blob/master/Screenshot%20(27).png)
+- Transform your text!!
+  ![Convert your text](https://github.com/AshutoshSingh2021/my-First-react-app/blob/master/Screenshot(27).png)
+  
 
 - Dark Mode
   ![Alt text](<Screenshot (26).png>)
