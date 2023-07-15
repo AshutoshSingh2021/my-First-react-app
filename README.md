@@ -4,7 +4,7 @@
 
 - [textUtils](https://github.com/AshutoshSingh2021/my-First-react-app) is a text formatter which allows the user to convert their long texts to uppercase, lowercase, titlecase, can remove extra spaces from the text and even can extract all the emails from a text.
 - User can also see length of the text in words and in characters and the minutes of read it will take.
-- Project Deployment Link - [textUtils-website](https://textutils-textformatter.netlify.app/)
+- Project Deployment Link 👉 [textUtils-website](https://textutils-textformatter.netlify.app/)
 
 ### Screenshots
 
